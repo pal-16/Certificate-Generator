@@ -1,0 +1,45 @@
+<%- include("./partials/header") %>
+<br>
+<br>
+<br>
+<br>
+
+<div class="mycenter">
+    <form action="/submit" method="POST">
+        <div class="form-group">
+            <label for="exampleInputEmail1">UserId</label>
+            <input type="text" class="form-control" name="userId" placeholder="Enter the unique id given to you">
+
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Upload certificate template</label>
+            <input type="file" class="form-control-file" name="certiTemplate" id="exampleFormControlFile1">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Upload excel file</label>
+            <input type="file" class="form-control-file" name="csvData" id="exampleFormControlFile1">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Co-ordinates</label>
+            <input type="text" class="form-control" name="location" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter the co-ordinates in this format x,y">
+        </div>
+        -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%- include("./partials/footer") %>
