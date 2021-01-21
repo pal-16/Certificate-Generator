@@ -25,7 +25,7 @@ for i in df.index:
 	name.upper()
 	print(i+1,name)
 	length=len(name)
-	x=1056/2-length*25/2
+	x=1056/2-(length*25)/2   
 	print(x)
 	draw.text((x, 300), name, fill=color, font=font)	
 	temp="sample"
@@ -36,7 +36,7 @@ for i in df.index:
 	msg = MIMEMultipart() 
 	msg['From'] = "#####"   #Your Email Id 
 	msg['Subject'] = "Certificate for Completing your Android Study Jam"
-	body = '''Please find attached your certificate for completion of Kotlin Course.
+	body = '''Please find attached your certificate for completion of the Kotlin Course powered by Anrdoid.
 			  
 	Regards
 	DSC 
