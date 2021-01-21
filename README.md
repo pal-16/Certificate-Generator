@@ -5,6 +5,7 @@ A python script that will generate certificates of event given the certificate t
 We have to put in the gmail account details through which you want to send mail and configure gmail to allow less secure apps to access it
 once all settings are proper you are good to go.
 
+Please make sure to add the certificate template and your excel sheet with Name and Email od students.
 
 # How to use the repository?
 ```
