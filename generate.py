@@ -25,7 +25,7 @@ for i in df.index:
 	name.upper()
 	print(i+1,name)
 	length=len(name)
-	x=1056/2-(length*25)/2   
+	x=1056/2-(length*25)/2   #Here I have calcualted the coordinates of the name to be placed in the certificate assuming each alphabet taking 25 pixel and the certificate width is 1056 pixel
 	print(x)
 	draw.text((x, 300), name, fill=color, font=font)	
 	temp="sample"
