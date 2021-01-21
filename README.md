@@ -31,4 +31,4 @@ Hope this helps. Please feel free to report any issues faced by you.
 - [x]  solved error of "login" as less secure apps was enabled
 - [x]  By hit and trial method found out the coordinates of the right spacing of name
 - [x]  Installing xlrd version less than 2
-- [x]  RGB version of the name colour added and downloaded google sans font in ttf format a
+- [x]  RGB version of the name colour added and downloaded google sans font in ttf format
