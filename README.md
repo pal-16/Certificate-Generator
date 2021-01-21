@@ -14,3 +14,7 @@ pip install requirements.txt
 ```
 Go to generate.py and replace all the commented part with the required input mentioned there
 ```
+
+```
+python generate.py
+```
