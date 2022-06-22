@@ -5,7 +5,7 @@ Django==3.1.5
 docopt==0.6.2
 idna==2.10
 image==1.5.33
-numpy==1.19.5
+numpy==1.22.0
 pandas==1.2.1
 Pillow==8.1.0
 pipreqs==0.4.10
